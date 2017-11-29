@@ -224,30 +224,30 @@ int main()
 					break;*/
 					case 'b':
 					case 'B':
-					cout << "Please set a balance: ";
-					cin >> balance;
-					account->setBalance(balance);
-					break;
+						cout << "Please set a balance: ";
+						cin >> balance;
+						account->setBalance(balance);
+						break;
 					case 'i':
 					case 'I':
-					cin >> years;
-					cout << "$" << account->computeIntr(years) << endl;
-					break;
+						cin >> years;
+						cout << "$" << account->computeIntr(years) << endl;
+						break;
 					case 'd':
 					case 'D':
-					cout << "Your interest is " << account->toString() << endl;
-					break;
+						cout << "Your interest is " << account->toString() << endl;
+						break;
 					case 'c':
 					case 'C':
-					cin >> years;
-					cout << "$" << account->computeIntr(years) << endl;
-					break;
+						cin >> years;
+						cout << "$" << account->computeIntr(years) << endl;
+						break;
 					case 'q':
 					case 'Q':
-					loop = false;
-					break;
+						loop = false;
+						break;
 					default:
-					break;
+						break;
 				}
 			}
 		}
