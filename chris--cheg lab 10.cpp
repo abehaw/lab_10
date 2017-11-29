@@ -82,9 +82,9 @@ int main()
 int menu()
 {
               cout << "*****************Enter your choice*****************" << endl;
-              cout << "1 - Store formatted account info and data into output file (print.txt)" << endl;
+              cout << "1 - read data from the file requested by the user and print all accont not 0************************" << endl;
               cout << "2 - Update an account" << endl;
-              cout << "3 - Add a new account" << endl;
+              cout << "3 - write data into the file*********************" << endl;
               cout << "4 - Delete an account" << endl;
               cout << "5 - Exit program" << endl;
               int menuChoice;

@@ -1,4 +1,1 @@
 Account   Last Name       First Name    Balance
-15        haw,            haw,          5666.00
-25        haw,            abe,           500.00
-55        dyn,            chris,        9978.00
